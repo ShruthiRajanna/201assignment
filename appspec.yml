@@ -1,0 +1,10 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /
+hooks:
+  ApplicationStart:
+    - location: /node_app.sh
+      timeout: 300
+      mode: 777
