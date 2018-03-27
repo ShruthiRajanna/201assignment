@@ -16,7 +16,7 @@ var router = express.Router();
  *         description: Success
  */
 router.get('/', function(req, res, next) {
-  res.send({ "Message": 'version2' });
+  res.send({ "Message": 'bye bye' });
 });
 
 module.exports = router;
